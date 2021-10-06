@@ -299,7 +299,7 @@ body.locked {
          font-size: 20px;
       };
       &::before {
-         content: url("/img/first-screen/geo.svg");
+         content: url("img/first-screen/geo.svg");
          margin-right: 10px;
       }
    }
@@ -337,7 +337,7 @@ body.locked {
          height: 100%;
          top: 0;
          left: 0;
-         background-image: url("/img/first-screen/arrow-right.svg");
+         background-image: url("img/first-screen/arrow-right.svg");
          background-size: cover;
          background-position: center;
          transform: rotate(-180deg);
@@ -369,7 +369,7 @@ body.locked {
          height: 100%;
          top: 0;
          left: 0;
-         background-image: url("/img/first-screen/arrow-right.svg");
+         background-image: url("img/first-screen/arrow-right.svg");
          background-size: cover;
          background-position: center;
       }
@@ -837,7 +837,7 @@ body.locked {
             text-transform: uppercase;
             color: #FFFFFF;
             &::after {
-               content: url("/img/first-screen/arrow-right.svg");
+               content: url("img/first-screen/arrow-right.svg");
             }
          }
       
@@ -1029,7 +1029,7 @@ height: 20px;
    height: 100%;
    top: 0;
    left: 0;
-   background-image: url("/img/first-screen/arrow-right.svg");
+   background-image: url("img/first-screen/arrow-right.svg");
    background-size: cover;
    background-position: center;
    transform: rotate(-180deg);
@@ -1055,7 +1055,7 @@ height: 20px;
    height: 100%;
    top: 0;
    left: 0;
-   background-image: url("/img/first-screen/arrow-right.svg");
+   background-image: url("img/first-screen/arrow-right.svg");
    background-size: cover;
    background-position: center;
 }
@@ -1064,11 +1064,8 @@ height: 20px;
 };
 }
 .surf-swiper-slide {
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
+      position: relative;
       width: 25%;
-      // min-height: 750px;
       &:nth-child(4n + 1) {
          margin-top: 25px;
       }
@@ -1079,6 +1076,19 @@ height: 20px;
          width: 33.333%;
          min-height: 550px;
       };
+
+      // .surf-swiper-slide__bgimg
+
+      &__bgimg {
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         object-position: center;
+      }
+
 		// .surf-swiper-slide__inner
 
 		&__inner {
@@ -1166,7 +1176,7 @@ height: 20px;
             padding: 17px;
             margin-left: 30px;
             &::after {
-               content: url("/img/first-screen/arrow-right.svg");
+               content: url("img/first-screen/arrow-right.svg");
                margin-left: 5px;
             }
          }
@@ -1229,7 +1239,7 @@ height: 20px;
    height: 100%;
    top: 0;
    left: 0;
-   background-image: url("/img/first-screen/arrow-right.svg");
+   background-image: url("img/first-screen/arrow-right.svg");
    background-size: cover;
    background-position: center;
    transform: rotate(-180deg);
@@ -1262,7 +1272,7 @@ height: 20px;
    height: 100%;
    top: 0;
    left: 0;
-   background-image: url("/img/first-screen/arrow-right.svg");
+   background-image: url("img/first-screen/arrow-right.svg");
    background-size: cover;
    background-position: center;
 }
@@ -1351,7 +1361,7 @@ height: 20px;
    &__country {
       display: flex;
       &::after {
-         content: url("/img/travel/virgin.svg");
+         content: url("img/travel/virgin.svg");
          margin-left: 30px;
       }
    }
@@ -1527,7 +1537,7 @@ height: 20px;
          height: 100%;
          top: 0;
          left: 0;
-         background-image: url("/img/first-screen/arrow-right.svg");
+         background-image: url("img/first-screen/arrow-right.svg");
          background-size: cover;
          background-position: center;
          transform: rotate(-180deg);
@@ -1560,7 +1570,7 @@ height: 20px;
          height: 100%;
          top: 0;
          left: 0;
-         background-image: url("/img/first-screen/arrow-right.svg");
+         background-image: url("img/first-screen/arrow-right.svg");
          background-size: cover;
          background-position: center;
       }
@@ -1895,7 +1905,7 @@ height: 20px;
          height: 100%;
          top: 0;
          left: 0;
-         background-image: url("/img/first-screen/arrow-right.svg");
+         background-image: url("img/first-screen/arrow-right.svg");
          background-size: cover;
          background-position: center;
          transform: rotate(-180deg);
@@ -1928,7 +1938,7 @@ height: 20px;
          height: 100%;
          top: 0;
          left: 0;
-         background-image: url("/img/first-screen/arrow-right.svg");
+         background-image: url("img/first-screen/arrow-right.svg");
          background-size: cover;
          background-position: center;
       }
