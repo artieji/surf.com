@@ -1,0 +1,110 @@
+$md13: 1399.98;
+$md11: 1199.98;
+$md9: 991.98;
+$md7: 767.98;
+$md4: 479.98;
+
+.title-h2 {
+   @extend %fr-extrabold;
+   font-size: 40px;
+   line-height: 50px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   @media (max-width: $md7 + px) {
+      font-size: 24px;
+   };
+   @media (max-width: 479.98px) {
+      font-size: 20px;
+   };
+}
+.title-h1 {
+   @extend %fr-extrabold;
+   font-size: 80px;
+   line-height: 156px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   position: relative;
+   @media (max-width: 768.98px) {
+      font-size: 60px;
+   };
+   @media (max-width: 479.98px) {
+      font-size: 40px;
+   };
+   &::before {
+      content: "";
+      position: absolute;
+      width: 80px;
+      height: 2px;
+      background-color: #4AF6CD;
+      top: 20px;
+      left: 155px;
+   }
+   &::after {
+      content: "surf";
+      position: absolute;
+      top: 60px;
+      left: -26%;
+      @extend %fr-extrabold;
+      font-size: 200px;
+      line-height: 156px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      opacity: 0.02;
+   }
+   @media (max-width: $md11 + px) {
+      font-size: 60px;
+   };
+   @media (max-width: $md7 + px) {
+      text-align: center;
+   };
+}
+.text-with-gray-line {
+   display: flex;
+   align-items: center;
+   @extend %fr-regular;
+   font-size: 22px;
+   line-height: 32px;
+   letter-spacing: 7.33333px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   opacity: 0.5;
+   &::before {
+      content: "";
+      display: block;
+      width: 80px;
+      height: 1px;
+      background-color: rgba(255, 255, 255, 0.5);
+      margin-right: 25px;
+   }
+}
+.green-btn {
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   @extend %fr-extrabold;
+   font-size: 40px;
+   line-height: 36px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   span {
+      display: block;
+      background-color: #4AF6CD;
+      transition: all 0.5s ease 0s;
+      padding: 17px;
+      margin-left: 30px;
+      &::after {
+         content: url("/img/first-screen/arrow-right.svg");
+         margin-left: 5px;
+      }
+   }
+   @media (min-width: $md9 + px) {
+      &:hover span {
+         background-color: #000;
+      }
+   };
+   @media (max-width: 768.98px) {
+      font-size: 30px;
+   };
+}
+
