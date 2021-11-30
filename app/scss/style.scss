@@ -29,9 +29,6 @@ body.locked {
 .first-screen {
    position: relative;
    min-height: 100vh;
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
    padding-right: 80px;
    &::after {
       content: "";
@@ -42,7 +39,7 @@ body.locked {
       left: 0;
       background-color: rgba(0, 0, 0, 0.5);
    }
-   @media (max-width: $md11 + px) {
+   @media (max-width: 1199.98px) {
       padding: 0px 15px 0px 15px;
    };
 

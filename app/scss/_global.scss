@@ -4,6 +4,16 @@ $md9: 991.98;
 $md7: 767.98;
 $md4: 479.98;
 
+._bgimg {
+   position: absolute;
+   z-index: 0;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   object-position: center;
+}
 .title-h2 {
    @extend %fr-extrabold;
    font-size: 40px;
