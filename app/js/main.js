@@ -30,9 +30,10 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('scroll', animOnScroll);
 
   function animOnScroll() {
+    // map
     const surfMapHeight = surfMap.offsetHeight;
     const surfMapOffset = surfMap.getBoundingClientRect().top;
-    const animStart = 1;
+    const animStart = 2;
 
     let animItemPoint = window.innerHeight - surfMapHeight / animStart;
 
@@ -49,8 +50,10 @@ document.addEventListener('DOMContentLoaded', function() {
         surfSvgPoint[i].classList.remove('active');
       }
     }
+    // map
+
   }
- 
+
   animOnScroll();
 
   //! svg-points-click
@@ -252,6 +255,9 @@ document.addEventListener('DOMContentLoaded', function() {
       body.classList.remove('locked');
     }
   });
+
+
+  //! animation while scroll
 
 
 

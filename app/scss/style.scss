@@ -326,18 +326,15 @@ body.locked {
       left: 92%;
       width: 24px;
       height: 20px;
-   
-      &::after {
-         content: "";
+      transform: rotate(-180deg);
+      img {
          position: absolute;
          width: 100%;
          height: 100%;
-         top: 0;
-         left: 0;
-         background-image: url("img/first-screen/arrow-right.svg");
-         background-size: cover;
-         background-position: center;
-         transform: rotate(-180deg);
+      }
+      
+      &::after {
+         content: "";
       }
       @media (max-width: 1600px) {
          top: 30%;
@@ -358,17 +355,14 @@ body.locked {
       left: 98%;
       width: 24px;
       height: 20px;
-   
-      &::after {
-         content: "";
+      img {
          position: absolute;
          width: 100%;
          height: 100%;
-         top: 0;
-         left: 0;
-         background-image: url("img/first-screen/arrow-right.svg");
-         background-size: cover;
-         background-position: center;
+      }
+      
+      &::after {
+         content: "";
       }
       @media (max-width: 1600px) {
          top: 30%;
@@ -1018,20 +1012,16 @@ top: 10%;
 left: 79.5%;
 width: 24px;
 height: 20px;
-
-&::after {
-   content: "";
-   position: absolute;
-   width: 100%;
-   height: 100%;
-   top: 0;
-   left: 0;
-   background-image: url("img/first-screen/arrow-right.svg");
-   background-size: cover;
-   background-position: center;
-   transform: rotate(-180deg);
-}
-
+transform: rotate(-180deg);
+      img {
+         position: absolute;
+         width: 100%;
+         height: 100%;
+      }
+      
+      &::after {
+         content: "";
+      }
 @media (max-width: $md7 + px) {
    display: none;
 };
@@ -1043,18 +1033,14 @@ top: 10%;
 left: 83.5%;
 width: 24px;
 height: 20px;
-
-
-&::after {
-   content: "";
+img {
    position: absolute;
    width: 100%;
    height: 100%;
-   top: 0;
-   left: 0;
-   background-image: url("img/first-screen/arrow-right.svg");
-   background-size: cover;
-   background-position: center;
+}
+
+&::after {
+   content: "";
 }
 @media (max-width: $md7 + px) {
    display: none;
@@ -1228,19 +1214,16 @@ top: 15%;
 left: 79.5%;
 width: 24px;
 height: 20px;
-
-&::after {
-   content: "";
-   position: absolute;
-   width: 100%;
-   height: 100%;
-   top: 0;
-   left: 0;
-   background-image: url("img/first-screen/arrow-right.svg");
-   background-size: cover;
-   background-position: center;
-   transform: rotate(-180deg);
-}
+transform: rotate(-180deg);
+      img {
+         position: absolute;
+         width: 100%;
+         height: 100%;
+      }
+      
+      &::after {
+         content: "";
+      }
 @media (max-width: 1600px) {
    top: 35%
 };
@@ -1261,17 +1244,14 @@ top: 15%;
 left: 83.5%;
 width: 24px;
 height: 20px;
-
-&::after {
-   content: "";
+img {
    position: absolute;
    width: 100%;
    height: 100%;
-   top: 0;
-   left: 0;
-   background-image: url("img/first-screen/arrow-right.svg");
-   background-size: cover;
-   background-position: center;
+}
+
+&::after {
+   content: "";
 }
 @media (max-width: 1600px) {
    top: 35%
@@ -1291,7 +1271,7 @@ height: 20px;
       left: 0;
       top: 250px;
       width: 1115px;
-      height: 780px;
+      height: 780px;3
       img {
          width: 100%;
          height: 100%;
@@ -1300,7 +1280,6 @@ height: 20px;
       }
       @media (max-width: $md11 + px) {
          width: 100%;
-
       };
    }
 
@@ -1526,18 +1505,15 @@ height: 20px;
       left: 79.5%;
       width: 24px;
       height: 20px;
-      
-      &::after {
-         content: "";
+      transform: rotate(-180deg);
+      img {
          position: absolute;
          width: 100%;
          height: 100%;
-         top: 0;
-         left: 0;
-         background-image: url("img/first-screen/arrow-right.svg");
-         background-size: cover;
-         background-position: center;
-         transform: rotate(-180deg);
+      }
+      
+      &::after {
+         content: "";
       }
       @media (max-width: 1600px) {
          top: 35%;
@@ -1559,17 +1535,14 @@ height: 20px;
       left: 83.5%;
       width: 24px;
       height: 20px;
-      
-      &::after {
-         content: "";
+      img {
          position: absolute;
          width: 100%;
          height: 100%;
-         top: 0;
-         left: 0;
-         background-image: url("img/first-screen/arrow-right.svg");
-         background-size: cover;
-         background-position: center;
+      }
+      
+      &::after {
+         content: "";
       }
       @media (max-width: 1600px) {
          top: 35%
@@ -1894,18 +1867,15 @@ height: 20px;
       left: 94%;
       width: 24px;
       height: 20px;
-      
-      &::after {
-         content: "";
+      transform: rotate(-180deg);
+      img {
          position: absolute;
          width: 100%;
          height: 100%;
-         top: 0;
-         left: 0;
-         background-image: url("img/first-screen/arrow-right.svg");
-         background-size: cover;
-         background-position: center;
-         transform: rotate(-180deg);
+      }
+      
+      &::after {
+         content: "";
       }
       @media (max-width: 1600px) {
          top: 10%;
@@ -1927,17 +1897,14 @@ height: 20px;
       left: 98%;
       width: 24px;
       height: 20px;
-      
-      &::after {
-         content: "";
+      img {
          position: absolute;
          width: 100%;
          height: 100%;
-         top: 0;
-         left: 0;
-         background-image: url("img/first-screen/arrow-right.svg");
-         background-size: cover;
-         background-position: center;
+      }
+      
+      &::after {
+         content: "";
       }
       @media (max-width: 1600px) {
          top: 10%;
